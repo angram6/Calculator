@@ -1,0 +1,95 @@
+#mama { 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.display-container{
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.row button {
+    flex: 1;
+}
+
+#num-display{
+    height: 60px; 
+    color: white;
+    font-size: 38px;
+    text-align: right;
+    background-color:rgb(72, 73, 74);
+    white-space: nowrap;
+    padding: 6px;
+    overflow: hidden;
+    border-radius: 7px 7px 7px 7px;
+    width: 100%;
+    flex: 1;
+}
+
+.num-button {
+    background-color: rgb(254, 172, 184);
+    width: 75px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.op-button {
+    background-color: rgb(206, 206, 206);
+    width: 75px;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#buttonEquals {
+    background-color: rgb(245, 129, 62);
+    width: 75px;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.num-button:hover {
+    background-color: rgb(255, 153, 187);
+    width: 75px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
